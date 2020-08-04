@@ -1,14 +1,63 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title></PKJoyaltitle>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>New LogIn & Create Account Page</title>
+  <!-- HTML -->
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-<h1 class="text-primary">welcome  to Prashant KumarJoyal</h1>
+  <!-- Project -->
+  <section class="container">
+    <div class="row">
+      <div class="col-md-6 col-lg-6 col-12">
+        <div class="text1">
+        <h1 class="text-center">LogIn to Your Account </h1>
+        </div>
+        <p>
+          <li>The Group Of PKJoyal , we us <code> Your Private Account</code></li>
+        </p>
+        <form action="/action_page.php" id="form_id">
+          
+            <label for="uname">Username:</label><br />
+            <input type="text" id="username" placeholder="Enter username" name="username" required><br /><br />
+            <label for="pwd">Password:</label><br />
+            <input type="password" id="password" placeholder="Enter password" name="password" required><br /><br /><br />
+          <input type="button" value="Log In" id="submit" onclick="validate()" />
+        </form>
+      </div>
+      <div class="col-md-6 col-lg-6 col-12">
+        <div class="text1">
+          <h1>Create Account</h1>
+        </div>
+        <li>Fill This all Blank Area.</li>
+        <div class="form">
+          <label for="Name">First Name :</label><br />
+          <input type="name" name="name" id="name" value="" placeholder="First Name" size="25%" required /><br /><br />
+          <label for="name">Last Name :</label><br />
+          <input type="name" name="lastname" id="lname" value="" placeholder="Last Name" size="25%" required /><br /><br />
+          <label for="mobile">Mobile Number :</label><br />
+          <input type="number" name="mobile" id="mobile" value="" placeholder="Mobile Number" width="25%" required />
+          <br /><br />
+          <label for="email">Email :</label><br />
+          <input type="email" name="email" id="" value="" placeholder="Email" size="25%" required /><br /><br />
+          <label for="pws">Password :</label><br />
+          <input type="password" name="pws" id="show" value="" placeholder="New Password" size="25%" required /><br />
+          <span><input type="checkbox" onclick="myFunction()"></span><br /><br><br />
+          <input type="submit" value="Submit">
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="main.js"></script>
 </body>
 
 </html>
