@@ -1,0 +1,107 @@
+*{
+  font-family: 'Raleway', sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+header {
+  background: #040948;
+}
+header na img[class=img1] {
+  width: 90px;
+  background: #FFFFFF;
+  border-radius: 100px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 180);
+  transition: all 0.3s ease 0s;
+}
+ul {
+  padding-top: 10px;
+}
+li, a{
+  font-weight: bold!important;
+  font-size: 10px!important;
+  text-decoration: none!important;
+  color: white!important;
+}
+na {
+  display: flex!important;
+  justify-content: space-between;
+  align-items: center!important;
+}
+.navlink {
+  list-style: none!important;
+  
+}
+.navlink li {
+  display: inline!important;
+  padding: 0px 20px!important;
+}
+na ul li a:hover {
+  border: 1px solid white;
+  padding: 3px!important;
+  border-radius: 40px!important;
+}
+header na img[class=img2] {
+  width: 50px;
+  padding: 5px;
+  border-radius: 50px;
+  position: relative;
+}
+header na div[class=login] {
+  color: white;
+  position: relative;
+  background: #15194E;
+  border: 2px solid white;
+  border-radius: 50px;
+}
+header na div a {
+  padding-right: 10px;
+}
+header na div:hover {
+  color: black;
+  background: #00C1F5;
+  
+}
+a[type=call]:hover {
+  color: black!important;
+}
+section .row .pkjoyal {
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, .80);
+  border-radius: 5px;
+}
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 31px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 100%;
+}
+
+.fa:hover {
+  opacity: 0.9;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: #fff;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #3B5998;
+  color: #fff;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-envelope {
+  background: #dd4b39;
+  color: white;
+}
